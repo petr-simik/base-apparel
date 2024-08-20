@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logoContainer">
+      <img src="/images/logo.svg" class="logoMobile">
+    </div>
+    <div class="leftContainer">
+      <div class="contentContainer">
+        
+        <img src="/images/logo.svg" class="logo">
+
+        <div class="headerText">
+          <span class="weAre">We're</span><br>
+          <span class="comingSoon">coming <br> soon</span>
+        </div>
+      
+        <p class="paragraph">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+      
+        <form name="myForm" class="emailInput" method="post" action="#">
+          <div class="emailContainer">
+            <input type="email" id="emailInput" name="emailInput" placeholder="Email Address" required class="inputContainer">
+            <button type="submit" onclick="return isEmpty();">
+              <img src="/images/icon-arrow.svg">
+            </button>
+          </div>
+          <p id="error-message" class="error-message"></p>
+        </form>        
+      </div>
+    </div>     
+    
+    <div class="imageContainer">
+      <img src="images/hero-mobile.jpg" class="imageMobile">
+      <img src="images/hero-desktop.jpg" class="imageDesktop">
+    </div>
+    
+  </div>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
