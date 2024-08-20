@@ -1,6 +1,6 @@
 # Base apparel
 
-## [Live Demo](https://qsoftin.github.io/base-apparel/)
+## [Live Demo](https://petr-simik.github.io/base-apparel/)
 
  Challenge from Frontend Mentor -  Base apparel
  
